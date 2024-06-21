@@ -1,0 +1,91 @@
+.container{background-image: url(https://i0.wp.com/careerplan.commons.gc.cuny.edu/files/2020/11/burst-kUqqaRjJuw0-unsplash-scaled.jpg?fit=2560%2C1706&ssl=1);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+text-align: center;
+font-size: 40px;
+padding: 0px;
+text-decoration-color: rgb(4, 4, 9);
+}
+
+
+
+.menu{
+display: inline;
+flex-grow: 1;
+}
+.nav{
+background-color: rgb(0, 0, 0);
+padding: 4px 4px
+}
+.navul{
+list-style-type: none;
+display: flex;
+}
+li a{
+
+display: block;
+color: rgb(252, 245, 245);
+text-align: center;
+padding: 3px;
+text-decoration: solid;
+}
+li a:hover{
+background-color: rgb(177, 154, 87);
+}
+
+
+
+.content{
+width: 160px;
+height: 10%;
+margin:20px;
+box-sizing: border-box;
+cursor: pointer;
+padding-top: 10px;
+background-color: white;
+margin-left: 30px;
+text-align: center;
+border-width: 10px;
+border-radius: 10%;
+
+
+
+}
+.content:hover{
+box-shadow: 3px 3px 3px black;
+transform: translate(1px,8px);
+}
+img{
+width:100px;
+height:100px;
+text-align:center;
+margin: 5px auto;
+display: block;
+
+}
+
+.gallery:hover { 
+border: 2px solid #0a071e;
+}
+
+.gallery{
+height: auto;
+width: 70%;
+display: flex;
+flex-wrap: wrap;
+margin:40px 40px;
+margin-left: 150px;
+justify-content: center;
+align-items: center;
+
+}
+
+.desc {
+padding: 10px;
+text-align: center;
+text-decoration-color: black;
+}
